@@ -84,7 +84,7 @@ end
 
 execute 'precompile_assets' do
   command 'RAILS_ENV=production bundle exec rake assets:precompile'
-  cwd 'home/ubuntu/project'
+  cwd '/home/ubuntu/project'
   user 'ubuntu'
 end
 
